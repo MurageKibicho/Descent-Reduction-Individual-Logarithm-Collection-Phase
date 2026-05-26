@@ -6,3 +6,5 @@ We use a sieve.
 We assume familiarity with index calculus techniques. This is part of LeetArxiv's series on _Practical Index Calculus for Computer Programmers_.
 
 The code is written to be followed alongside [this guide](https://leetarxiv.substack.com/p/individual-logarithm-reduction-step).
+
+### Make sure to unzip p95.7z to run `JouxSieve.c`
