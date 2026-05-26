@@ -20,7 +20,7 @@
 #define LINE_BUF_SIZE 4096
 #define INFINITE_LOOP_CHECK_SUM 100000
 
-//clear && gcc Extend.c -o m.o -lm -lgmp -lmpfr -lflint && ./m.o 
+//clear && gcc JouxSieve.c -o m.o -lm -lgmp -lmpfr -lflint && ./m.o 
 typedef struct hash_table_struct *HashTable;
 typedef struct hash_table_entry_struct *HashTableEntry;
 struct hash_table_entry_struct
@@ -447,7 +447,7 @@ bool Sieve_k1_k2(fmpz_t target, fmpz_t prime, fmpz_t A1, fmpz_t B1, fmpz_t A2, f
 
 void TestSieveArray()
 {
-	char *logFileName = "../Data/p95.dlog";
+	char *logFileName = "Data/p95.dlog";
 	size_t capacity = 100003;
 	char *unknownBaseString           = "101259726400208184076718506974609171605435438168191661079316293670904622880200";
 	char *unknownBaseProjectionString = "97890684989265514181240123615056668210036264581619234259585154409438989672892";
